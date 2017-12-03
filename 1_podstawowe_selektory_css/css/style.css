@@ -1,1 +1,21 @@
-body{background-color: red;}
+p{color: gray;}
+
+#paragraf{color: pink;}
+
+a, span, div {
+    color:blue;
+}
+
+li> a{
+    background-color: yellow;
+}
+
+h2 ~ h3{color: green;}
+
+ul > li:not(.last){
+    color: violet;
+}
+
+ol>li:nth-child(3n+1){
+    background-color: orange;
+}
